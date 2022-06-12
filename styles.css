@@ -1,0 +1,78 @@
+.tittle{
+  color: red;
+  background: blue;
+}
+
+.tittle2{
+  color: rgb(217, 255, 0);
+  background: rgba(13, 174, 214, 0.315);
+  width: 100px;
+  height: 100px;
+}
+
+header, .tittle3{
+  width: 50%;
+  color: aqua;
+  margin: 5% 25%;
+  padding: 20px 40px;
+  background: red;
+}
+
+*{
+  /* background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/15/a4/9b/77/legacy-hotel-at-img-academy.jpg");
+  background-repeat:no-repeat ;
+  background-size: cover; */
+  margin: 0;
+  padding: 0;
+  font-family: Lexend;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Lexend;
+  background-color: rgba(0, 0, 0, 0.801);
+}
+
+.texto2{
+  font-size: 40px;
+  font-weight: 600;
+  font-family: Lexend;
+}
+
+.container1{
+  width: 100%;
+  height: 50px;
+  background: black;
+  border: 5px solid #000;
+  padding: 1%;
+  position: fixed;
+  top: 1px;
+  font-size: 15px;
+  font-weight: 10;
+  display: flex;
+  justify-content: center;
+  color: blanchedalmond;
+}
+
+.barra1, .barra2, .barra3, .barra4, .barra5{
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 25px;
+  margin: 3px 20px;
+  padding: 4px;
+  height: 30px;
+  width: 110px;
+  text-align: center;
+}
+
+.link{
+  text-decoration: none;
+  color: blanchedalmond;
+}
+
+.link:hover{
+  color: red;
+  border-bottom: 5px solid red;
+  background-image: url("https://empresas.blogthinkbig.com/wp-content/uploads/2019/11/Imagen3-245003649.jpg?w=800");
+  background-image: url("https://ep01.epimg.net/elpais/imagenes/2019/10/30/album/1572424649_614672_1572453030_noticia_normal.jpg");
+}
